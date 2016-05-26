@@ -1,0 +1,45 @@
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Statement;
+
+/*
+ * Jason Jordan
+ * 
+ * CSC 251
+ * 
+ * Data Manipulation
+ */
+
+public class DataManipulation {
+
+	public static void main(String[] args) {
+		
+		final String DB_URL = "jdbc:derby:DTCC;create=true";
+		
+		try
+		{
+			// Create a connection to the database.
+			Connection conn = DriverManager.getConnection(DB_URL);
+			System.out.println("Connection successful");
+			
+			// If the DB already exists, drop the tables.
+			//dropTables(conn);
+
+			// Build the Coffee table and insert records.
+			//buildCoffeeTable(conn);
+
+			// Close the connection.
+			conn.close();
+			System.out.println("Connection closed");
+			
+			System.out.println("DB creation success!");
+		}
+		catch (Exception ex)
+		{
+			System.out.println("ERROR: " + ex.getMessage());
+		}
+
+	}
+
+}

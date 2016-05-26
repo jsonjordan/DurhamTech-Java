@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pet Sitting</string>
+    <string name="action_settings">Settings</string>
+    <string name="txtTitle">Pet Sitting By Jason</string>
+    <string name="txtCompanyInfo">134 Main St</string>
+    <string name="title_activity_company_screen">Company Screen</string>
+</resources>

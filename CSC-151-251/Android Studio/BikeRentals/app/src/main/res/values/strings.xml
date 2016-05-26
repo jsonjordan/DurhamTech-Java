@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BikeRentals</string>
+    <string name="action_settings">Settings</string>
+    <string name="beach">Beach Bike Rentals</string>
+    <string name="mountain">Mountain Bike Rentals</string>
+    <string name="website">Bike Rentals Website</string>
+    <string name="title_activity_beach_bike">Beach Bike</string>
+    <string name="title_activity_mountain_bike">Mountain Bike</string>
+</resources>

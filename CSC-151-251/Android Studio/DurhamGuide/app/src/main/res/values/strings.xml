@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Durham Guide</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_life_and_science">LifeAndScience</string>
+</resources>
